@@ -2,12 +2,9 @@
 
 echo "<ul><li>Home</li></ul><hr/>";
 
-echo "PHP is working";
+# Router
 
 $request = $_SERVER['REQUEST_URI'];
-
-
-# switch 
 
 switch ($request) {
     case '/' :
