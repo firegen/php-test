@@ -1,11 +1,14 @@
 <?php
-
-echo "<ul><li>Home</li></ul><hr/>";
-
-# Router
-
+#Variables
 $request = $_SERVER['REQUEST_URI'];
 
+echo "<ul>
+        <li><a href=".$request.">Home</a></li>
+        <li>a href=".$request."/about>About</li>
+      </ul>
+      <hr/>";
+
+# Router
 switch ($request) {
     case '/' :
         require __DIR__ . '/views/index.php';
