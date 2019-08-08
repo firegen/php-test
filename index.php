@@ -4,7 +4,7 @@ $request = $_SERVER['REQUEST_URI'];
 
 
 echo '<ul>
-        <li><a href='/'>Home</a></li>
+        <li><a href="/">Home</a></li>
         <li><a href="/about">About</li>
       </ul>
       <hr/>';
